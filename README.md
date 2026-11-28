@@ -19,7 +19,7 @@
 <br/>
 <img src="https://img.shields.io/badge/%F0%9F%A5%87_GOLD_MEDALIST-B.Tech_Robotics_%26_Automation_Engineering-b45309?style=for-the-badge&labelColor=21262d" alt="Gold Medalist — B.Tech Robotics and Automation Engineering"/>
 <br/>
-<img src="https://img.shields.io/badge/Projects-14-6d28d9?style=flat-square&labelColor=21262d" alt="14 projects"/>
+<img src="https://img.shields.io/badge/Projects-16-6d28d9?style=flat-square&labelColor=21262d" alt="16 projects"/>
 <img src="https://img.shields.io/badge/Euron_Certificates-14-6d28d9?style=flat-square&labelColor=21262d" alt="14 Euron certificates"/>
 <img src="https://img.shields.io/badge/Job_Simulations-10-6d28d9?style=flat-square&labelColor=21262d" alt="10 job simulations"/>
 <img src="https://img.shields.io/badge/Ranked_1st-8_Semesters-6d28d9?style=flat-square&labelColor=21262d" alt="Ranked 1st for 8 semesters"/>
@@ -103,6 +103,8 @@ Worked on Generative AI use cases with open-source LLM tooling.
 <img src="https://img.shields.io/badge/-Computer_Vision-21262d?style=for-the-badge&logo=opencv&logoColor=00d4ff" alt="Computer Vision"/>
 <img src="https://img.shields.io/badge/-YOLOv8-21262d?style=for-the-badge&logoColor=00d4ff" alt="YOLOv8"/>
 <img src="https://img.shields.io/badge/-LLMs_%C2%B7_RAG_%C2%B7_Fine--Tuning-21262d?style=for-the-badge&logoColor=00d4ff" alt="LLMs RAG Fine-Tuning"/>
+<img src="https://img.shields.io/badge/-QLoRA_%C2%B7_Unsloth-21262d?style=for-the-badge&logoColor=00d4ff" alt="QLoRA and Unsloth"/>
+<img src="https://img.shields.io/badge/-Hugging_Face-21262d?style=for-the-badge&logo=huggingface&logoColor=00d4ff" alt="Hugging Face"/>
 <img src="https://img.shields.io/badge/-LangChain-21262d?style=for-the-badge&logo=langchain&logoColor=00d4ff" alt="LangChain"/>
 <img src="https://img.shields.io/badge/-LangGraph-21262d?style=for-the-badge&logo=langchain&logoColor=00d4ff" alt="LangGraph"/>
 <img src="https://img.shields.io/badge/-LangSmith-21262d?style=for-the-badge&logo=langchain&logoColor=00d4ff" alt="LangSmith"/>
@@ -352,7 +354,21 @@ Full-stack SaaS that extracts **ATS keywords** from job descriptions and generat
 <a href="https://github.com/asif684/Full-Stack-AI-Powered-ATS-Resume-Builder-SaaS-Application"><img src="https://img.shields.io/badge/GitHub-View_Repo-1f6feb?style=flat-square&logo=github&labelColor=21262d" alt="Repo"/></a>
 
 </td>
-<td width="50%" valign="top"></td>
+<td width="50%" valign="top">
+
+<h3>🦙 Domain-Specific Llama Fine-Tuning</h3>
+
+Fine-tunes **Llama-3.2-3B-Instruct** on custom domain data with **QLoRA** (4-bit, rank 16) and **Unsloth** — trains lightweight LoRA adapters on a single free-tier GPU like a Colab T4.
+
+<img src="https://img.shields.io/badge/-Llama_3.2-21262d?style=flat-square" alt="Llama 3.2"/>
+<img src="https://img.shields.io/badge/-QLoRA-21262d?style=flat-square" alt="QLoRA"/>
+<img src="https://img.shields.io/badge/-Unsloth-21262d?style=flat-square" alt="Unsloth"/>
+<img src="https://img.shields.io/badge/-TRL-21262d?style=flat-square" alt="TRL"/>
+<img src="https://img.shields.io/badge/-Hugging_Face-21262d?style=flat-square" alt="Hugging Face"/>
+
+<a href="https://github.com/asif684/Domain-Specific-Llama-Fine-Tuning-with-QLoRA-and-Unsloth"><img src="https://img.shields.io/badge/GitHub-View_Repo-1f6feb?style=flat-square&logo=github&labelColor=21262d" alt="Repo"/></a>
+
+</td>
 </tr>
 </table>
 
@@ -384,6 +400,7 @@ Full-stack SaaS that extracts **ATS keywords** from job descriptions and generat
 | 7 | **AI Job Recommendation System with MCP** | Resume analysis · skill-gap detection · career roadmap · FastMCP tool | [GitHub](https://github.com/asif684/Ai_powered_job_recommendation_system_with_mcp) |
 | 8 | **Voice Multi-Agent Orchestration** | MCP · guardrails (PII, prompt-injection, HITL) · LangSmith observability | [GitHub](https://github.com/asif684/Voice-driven-multi-agent-orchestration-with-MCP-guardrails-and-full-LangSmith-observability) |
 | 9 | **GPT From Scratch** | Decoder-only transformer · multi-head attention · TensorFlow/Keras | [GitHub](https://github.com/asif684/GPT-From-Scratch) |
+| 10 | **Domain-Specific Llama Fine-Tuning** | Llama-3.2-3B-Instruct · QLoRA (4-bit, r=16) · Unsloth · TRL SFTTrainer · free Colab T4 | [GitHub](https://github.com/asif684/Domain-Specific-Llama-Fine-Tuning-with-QLoRA-and-Unsloth) |
 
 </details>
 
@@ -393,10 +410,10 @@ Full-stack SaaS that extracts **ATS keywords** from job descriptions and generat
 
 | # | Project | Highlights | Link |
 |:-:|:--|:--|:-:|
-| 10 | **Coffee Shop Sales Dashboard** | AWS S3 → Snowflake → Power BI · MoM KPIs · custom tooltips | [GitHub](https://github.com/asif684/coffee-shop-sales-analysis-aws-s3-snowflake-powerbi) |
-| 11 | **Bank Loan Report Dashboard** | MS SQL Server + Power BI · MTD/MoM DAX · good vs bad loan analysis | [GitHub](https://github.com/asif684/Bank-Financial-Analytics-PowerBI-MSsql-Server-Dashboard) |
-| 12 | **A/B Testing: Facebook vs AdWords** | Hypothesis testing · regression · time series · cointegration | [GitHub](https://github.com/asif684/A-B-Testing-Analysis-Facebook-VS-Adword-) |
-| 13 | **Fraud Analytics Big Data ETL** | Kafka → Databricks → MongoDB · real-time fraud flags · email alerts | [GitHub](https://github.com/asif684/ETL_fraud_analytics_kafka_mongodb) |
+| 11 | **Coffee Shop Sales Dashboard** | AWS S3 → Snowflake → Power BI · MoM KPIs · custom tooltips | [GitHub](https://github.com/asif684/coffee-shop-sales-analysis-aws-s3-snowflake-powerbi) |
+| 12 | **Bank Loan Report Dashboard** | MS SQL Server + Power BI · MTD/MoM DAX · good vs bad loan analysis | [GitHub](https://github.com/asif684/Bank-Financial-Analytics-PowerBI-MSsql-Server-Dashboard) |
+| 13 | **A/B Testing: Facebook vs AdWords** | Hypothesis testing · regression · time series · cointegration | [GitHub](https://github.com/asif684/A-B-Testing-Analysis-Facebook-VS-Adword-) |
+| 14 | **Fraud Analytics Big Data ETL** | Kafka → Databricks → MongoDB · real-time fraud flags · email alerts | [GitHub](https://github.com/asif684/ETL_fraud_analytics_kafka_mongodb) |
 
 </details>
 
@@ -404,9 +421,9 @@ Full-stack SaaS that extracts **ATS keywords** from job descriptions and generat
 <summary><b>🤖 Robotics & Computer Vision</b></summary>
 <br/>
 
-| Project | Highlights | Link |
-|:--|:--|:-:|
-| **Robotic Arm with Human-Hand-Like End-Effector** | YOLOv8 object detection · Arduino-controlled servos · Fusion 360 CAD design | [GitHub](https://github.com/asif684/Computer-Vision-Robotic-Arm-with-Human-Hand-Like-End-Effector) |
+| # | Project | Highlights | Link |
+|:-:|:--|:--|:-:|
+| 15 | **Robotic Arm with Human-Hand-Like End-Effector** | YOLOv8 object detection · Arduino-controlled servos · Fusion 360 CAD design | [GitHub](https://github.com/asif684/Computer-Vision-Robotic-Arm-with-Human-Hand-Like-End-Effector) |
 
 </details>
 
@@ -416,7 +433,7 @@ Full-stack SaaS that extracts **ATS keywords** from job descriptions and generat
 
 | # | Project | Highlights | Link |
 |:-:|:--|:--|:-:|
-| 14 | **AI-Powered ATS Resume Builder (SaaS)** | React + TypeScript · Node/Express · PostgreSQL + Prisma · JWT auth · 10+ LLM providers · ATS keyword extraction | [GitHub](https://github.com/asif684/Full-Stack-AI-Powered-ATS-Resume-Builder-SaaS-Application) |
+| 16 | **AI-Powered ATS Resume Builder (SaaS)** | React + TypeScript · Node/Express · PostgreSQL + Prisma · JWT auth · 10+ LLM providers · ATS keyword extraction | [GitHub](https://github.com/asif684/Full-Stack-AI-Powered-ATS-Resume-Builder-SaaS-Application) |
 
 </details>
 
